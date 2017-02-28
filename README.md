@@ -1,1 +1,5 @@
-# cf_widgets
+# react skeleton
+
+## usage
+
+`npm install && webpack`
