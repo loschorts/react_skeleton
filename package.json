@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/loschorts/cf_widgets/issues"
   },
-  "homepage": "https://github.com/loschorts/cf_widgets#readme"
+  "homepage": "https://github.com/loschorts/cf_widgets#readme",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  }
 }
