@@ -11,7 +11,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015']
         }
@@ -19,8 +19,7 @@ module.exports = {
     ]
   },
   resolve: {
-  // you can now require('file') instead of require('file.coffee')
-  extensions: ['', '.js', '.jsx', '.json', '.coffee'] 
+    extensions: ['.js', '.jsx', '.json', '.coffee'],
+    modules: ['node_modules']
   },
-  resolveLoader: __dirname + "node_modules"
 };
